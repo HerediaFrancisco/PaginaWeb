@@ -146,25 +146,28 @@ body {
 
 /* ESTILO PARA LAS CARDS N° 1,2,3 */
 
-/* CORREGIR LO DE ABAJO */
-
 .cnt-section2-main{
     width: 100%;
     height: 428px;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
+.encabezado-section2{
+    width: 100%;
+    height:43px;
+    align-items: center;
+}
+
 .cnt-section2-divs{
-    background-color: #dbdbdb;
+    margin-left: 50px;
     flex-wrap: wrap;
     width: 553px;
     height: 158px;
 }
 
 .indice{
-    justify-content: center;
-    align-items: center;
     margin-right: 23px;
     color: #FFFFFF;
     background-color: #8B48BF;
@@ -177,27 +180,23 @@ body {
 }
 
 .titulo-section2{
-    text-align: center;
-    align-items: center;
     color: #323851;
-    width: 300px;
     height: 23px;
     font-weight: 700;
     line-height: 23px;
 }
 
 .parrafo-section2{
-    background-color: #caadad;
     margin-left: 92px;
-    width: 100%;
-    height: 47px;
+    width: 437px;
+    height: 104px;
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
-    text-align: center;
+    text-align: left;
 }
 
-/* CORREGIR LO DE ARRIBA */
+
 
 .sub-main{
     color: #242E53;
