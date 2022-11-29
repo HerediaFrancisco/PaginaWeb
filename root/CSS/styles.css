@@ -51,6 +51,10 @@ body {
     line-height: 19px; 
 }
 
+.links-nav:hover{
+    color: #242E5299;
+}
+
 .boton{
     justify-content: center;
     align-items: center;
@@ -306,10 +310,10 @@ body {
 }
 
 .enlaces-footer{
-    margin-top: 53px;
     justify-content: space-between;
+    align-items: center;
     width: 392px;
-    height: 141px;
+    height: 100%;
 }
 
 .nav1-footer{
@@ -332,9 +336,13 @@ body {
     height: 93px;
 }
 
+.form-copy{
+    justify-content: space-around;
+    height: 100%;
+}
 
 .form-suscribcion{
-    justify-content: space-between;
+   /* justify-content: space-between; */
     align-items: center;
     width: 272px;
     height: 48px;
@@ -365,8 +373,20 @@ body {
     width: 63px;
     height: 42px;
     border-radius: 50px;
-    justify-content: center;
-    align-items: center;
     outline: none;
     border: 0;
+}
+
+.copyright{
+    justify-content: flex-end;
+    width: 100%;
+    height: 21px;
+}
+
+.copyright p{
+    color: #8C8C94;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18.26px;
 }
