@@ -71,15 +71,21 @@ body {
 }
 .mobile{
     display: none;
+    width: 46px;
+    height: 41px;
 }
 
 /* ESTILO DE LA PORTADA PRINCIPAL */
 
 .cnt-portada{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 643px;
+}
+.cnt-img-port{
     justify-content: space-between;
     align-items: center;
-    margin-top: 86px;
-    margin-left: 180px;
     width: 1090px;
     height: 461px;
 }
@@ -114,13 +120,20 @@ body {
 }
 
 
+
+
+
 /* ESTILO A LA PARTE PRINCIPAL DEL LA PAGINA WEB */
 
+.cnt-section1{
+    align-items: flex-end;
+    width: 100%;
+    height: 264px;
+}
 .cnt-section1-main{
     justify-content: center;
     align-items: center;
     background-color: #8B48BF;
-    margin-top: 96px;
     width: 100%;
     height: 168px;
 }
@@ -144,7 +157,7 @@ body {
     line-height: 24px;
 }
 
-/* ESTILO PARA LAS CARDS N° 1,2,3 */
+/* ESTILO PARA LAS CARDS N° 1,2,3 
 
 .cnt-section2-main{
     width: 100%;
@@ -196,17 +209,22 @@ body {
     text-align: left;
 }
 
-
+.cnt-sub-main{
+    width: 100%;
+    height: 61px;
+    justify-content: center;
+    align-items: center;
+}
 
 .sub-main{
+    
     color: #242E53;
     width: 424px;
     height:61px;
     font-size: 39px;
     font-weight: 700;
     line-height: 61px;
-    text-align: center;
-    margin-left: 553px;     /* COMO CENTARR ESTO? */
+       /* COMO CENTARR ESTO? *
 }
 
 .cnt-cards{
@@ -249,7 +267,7 @@ body {
 
 
 .btn-more:hover{
-    background-color: #8B48BFB2; /* COPIE EL COLOR DEL FIGA PORQUE NO SE EL COLOR EXACTO EN RGBA */
+    background-color: #8B48BFB2; /* COPIE EL COLOR DEL FIGA PORQUE NO SE EL COLOR EXACTO EN RGBA *
 }
 
 .cnt-section3-main{
@@ -283,7 +301,7 @@ body {
     background-color: #FFFFFF;
 }
 
-/* ESTILO PARA EL FOOTER */ 
+/* ESTILO PARA EL FOOTER *
 
 .cnt-footer{
     justify-content: space-around;
@@ -341,7 +359,6 @@ body {
 }
 
 .form-suscribcion{
-   /* justify-content: space-between; */
     align-items: center;
     width: 272px;
     height: 48px;
@@ -388,4 +405,38 @@ body {
     font-size: 12px;
     font-weight: 500;
     line-height: 18.26px;
+}
+
+*/
+
+/* ESTILO PARA MOBILE */
+
+@media (max-width: 480px){
+    body, .img-portada{
+        width: 100%;
+        height: 1500px;
+    }
+
+    .nav-header, .btn-header, .sanyo, .navarro{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+
+    .cnt-portada{
+        height: 840px;
+    }
+    
+    .cnt-img-port {
+        flex-direction: column;
+    }
+
+    /* HASTA ACA ESTA TODO OK */
+
+    .cnt-section1{
+        height: 306px;
+        align-self: start;
+    }
 }
