@@ -64,6 +64,7 @@ body {
     height: 44px;
     border-radius: 50px;
     border: none;  
+    cursor: pointer;
 }
 
 .cnt-encabezado button{
@@ -317,12 +318,14 @@ body {
 }
 
 .iconos-footer{
+    
     justify-content: space-between;
     width: 154px;
     height: 22px;
 }
 
 .iconos-footer i{
+    cursor: pointer;
     width: 20px;
     height: 20px;
     text-align: center;
@@ -386,6 +389,7 @@ body {
 
 
 .form-suscribcion button{
+    cursor: pointer;
     background-color: #8B48BF;
     color: #FFFFFF;
     width: 63px;
@@ -409,6 +413,10 @@ body {
     line-height: 18.26px;
 }
 
+.copy2{
+    display: none;
+}
+
 
 
 /* ESTILO PARA MOBILE */
@@ -423,7 +431,7 @@ body {
         display: none;
     }
     
-    .mobile{
+    .mobile, .copy2{
         display: block;
     }
 
@@ -495,16 +503,51 @@ body {
     }
 
     .cnt-section3 h2{
+        align-items: center;
         text-align: center;
         font-size: 40px;
+        line-height: 60px;
         width: 324px;
         height: 192px;
     }
 
-    .cnt-footer{
-        height: 534.71px;
-        flex-direction: column-reverse;
-        gap: 25px;
+    .cnt-section3 button{
+        color: #FFFFFF;
+        background-color: #232C50;
     }
 
+    .cnt-footer, .logo-iconos{
+        height: 534.71px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+
+    .form-copy{
+        height: 69px;
+        align-items: center;
+    }
+    .enlaces-footer{
+        justify-content: center;
+        width: 100%;
+        height: 161px;
+        gap: 150px;
+    }
+
+    
+
+    .logo-iconos{
+        height: 112px;
+        align-items: center;
+    }
+
+    .iconos-footer{
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .copy1{
+        display: none;
+    }
 }
