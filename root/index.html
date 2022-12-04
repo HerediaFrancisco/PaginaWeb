@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Lobster&family=Montserrat&family=Roboto:ital,wght@0,400;1,300;1,400&family=Sen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-
     <link rel="stylesheet" href="./CSS/styles.css">
+    
 </head>
 <body>
     <!-- SIGNIFICADO DE LAS CLASES ABREVIADAS 
@@ -20,6 +20,9 @@
             img = imagen.
             sub = subtitulo.
     -->
+
+
+    <!-- ENCABEZADO CON NAVEGACION -->
 
     <header class="flex cnt-encabezado">
         <img id="logo" src="./Img/logo.svg" alt="imagen-encabezado">
@@ -33,12 +36,12 @@
             </ul>
         </nav>
         <button class="flex boton btn-header">Contact</button>
-        <img class="mobile" src="./Img/icono-nav.png" alt="barra de navegacion">
         
+        <i class="mobile fa-sharp fa-solid fa-bars"></i>
     </header>
     
-    <section class="flex cnt-portada">
-        
+    <!-- EN ESTA SECCION SE ENCUENTRA LA PORTADA PRINCIPAL DE LA PAGINA -->
+    <section class="flex cnt-portada">  
             <img class="img-portada" src="./Img/portada-principal.png" alt="imagen-portada">
 
             <div class="flex-column cnt-home">
@@ -46,9 +49,9 @@
                 <p class="parrafo-portada">The final Open of the 2022 World Padel Tour season is underway, don't miss out on any of the action!</p>
                 <button class="boton btn-portada">Contact</button>
             </div>
-        
     </section>
     
+    <!-- EN ESTE APARTADOS SE ENCUENTRA LA PARTE PRINCIPAL DE LA PAGINA -->
     <main>
         <section class="flex cnt-section1">
             <div class="flex cnt-section1-main">
@@ -56,8 +59,7 @@
                 <p class="parrafo-section1-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquet consequat purus sit amet sodales. In faucibus ut nisi eu dignissim. Vestibulum fringilla velit sed tincidunt tincidunt.</p>
             </div>
         </section>
-    
-        
+
         <section class="flex cnt-section2-main">
             <div class="flex cnt-section2-divs">
                 <div class="flex encabezado-section2">
@@ -66,6 +68,7 @@
                 </div>
                 <p class="flex parrafo-section2">Donec elit est,mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam velorci rutrum, placerat quam eget, consequat dolor.</p>
             </div>
+
             <div class="flex cnt-section2-divs">
                 <div class="flex encabezado-section2">
                     <span class="flex indice">02</span>
@@ -73,6 +76,7 @@
                 </div>
                 <p class="flex parrafo-section2">Donec elit est,mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam velorci rutrum, placerat quam eget, consequat dolor.</p>
             </div>
+
             <div class="flex cnt-section2-divs">
                 <div class="flex encabezado-section2">
                     <span class="flex indice">03</span>
@@ -92,18 +96,20 @@
                 <h4>Sanyo</h4>
                 <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
             </div>
+
             <div class="flex-column cards lebron">
                 <img src="./Img/avatar.lebron.png">
                 <h4>Lebron</h4>
                 <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
             </div>
+
             <div class="flex-column cards navarro">
                 <img src="./Img/avatar-navarro.png">
                 <h4>Navarro</h4>
                 <p>Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
             </div>
+            
         </section>
-        
             <div class="flex btn-main">
                 <button class="boton btn-more">More</button>
             </div>
@@ -114,14 +120,17 @@
                 <button class="boton">Go for it</button>
             </div>
         </section>
+
     </main>
     
     <footer class="flex cnt-footer">
         <section class="flex-column logo-iconos">
-            <div class="flex copyright copy2">
+            <div class="flex copyright copy2"> <!-- ESTE DIV SE ENCUENTRA EN DISP NONE EN RESOLUCION 1440 -->
                 <p>Copyright 2020. All Rights Reserved</p>
             </div>
+
             <img id="logo" src="./Img/logo-footer.png" alt="logo-pie-de-pagina">
+
             <div class="flex iconos-footer">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-square-youtube"></i>
@@ -130,6 +139,7 @@
                 <i class="fa-brands fa-instagram"></i>
             </div>
         </section>
+
         <section class="flex enlaces-footer">
             <nav>
                 <ul class="flex-column nav1-footer">
@@ -139,6 +149,7 @@
                     <li><a href="#">About Us</a></li>
                 </ul>
             </nav>
+
             <nav>
                 <ul class="flex-column nav2-footer">
                     <li><a href="#">Trainning</a></li>
@@ -147,6 +158,7 @@
                 </ul>
             </nav>
         </section>
+
         <section class="flex-column form-copy">
             <form action="./from-data/manage.php" method="POST" class="form-suscribcion">      
                 <input class="suscribcion" type="email" name="email" placeholder="Update in your inbox...">
@@ -156,8 +168,7 @@
                 <p>Copyright 2020. All Rights Reserved</p>
             </div>
         </section>
+
     </footer>
-
-
 </body>
 </html>

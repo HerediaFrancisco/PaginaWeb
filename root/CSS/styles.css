@@ -34,7 +34,7 @@ body {
 
 .cnt-encabezado{
     width: 100%;
-    height: 174px;                      /*PROBAR CON 25vh */
+    height: 174px;                      
     justify-content: space-around;
     align-items: center;
 }
@@ -45,14 +45,17 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    color: #242E52;
     font-size: 13px;
     font-weight: 500;
     line-height: 19px; 
 }
 
+.links-nav{
+    color: #242E52;
+}
+
 .links-nav:hover{
-    color: #242E5299;
+    color: rgba(36,46,82, 0.6);
 }
 
 .boton{
@@ -70,10 +73,10 @@ body {
 .cnt-encabezado button{
     box-shadow: 0px 4px 7px rgba(0,0,0,0.25);
 }
+
 .mobile{
     display: none;
-    width: 46px;
-    height: 41px;
+    font-size: 46px;
 }
 
 /* ESTILO DE LA PORTADA PRINCIPAL */
@@ -114,8 +117,6 @@ body {
     font-weight: 500;
     line-height: 26px;
 }
-
-
 
 
 
@@ -222,7 +223,7 @@ body {
     font-size: 39px;
     font-weight: 700;
     line-height: 61px;
-       /* COMO CENTARR ESTO? */
+
 }
 
 .cnt-cards{
@@ -267,7 +268,7 @@ body {
 
 
 .btn-more:hover{
-    background-color: #8B48BFB2; /* COPIE EL COLOR DEL FIGA PORQUE NO SE EL COLOR EXACTO EN RGBA */
+    background-color: rgba(139,72,191, 0.7);
 }
 
 
@@ -318,7 +319,6 @@ body {
 }
 
 .iconos-footer{
-    
     justify-content: space-between;
     width: 154px;
     height: 22px;
@@ -328,6 +328,7 @@ body {
     cursor: pointer;
     width: 20px;
     height: 20px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -443,7 +444,6 @@ body {
         flex-direction: column;
     }
 
-    /* HASTA ACA ESTA TODO OK */
     .cnt-home{
         gap: 28px;
     }
@@ -492,7 +492,6 @@ body {
         height: 366px;
         background-color: #3CDDF3;
         margin-top: 58px;
-        
     }
 
     .cnt-section3{       
@@ -528,6 +527,13 @@ body {
         height: 69px;
         align-items: center;
     }
+    .form-suscribcion{
+        width: 380px;
+    }
+    .suscribcion{
+        width: 308px;
+    }
+
     .enlaces-footer{
         justify-content: center;
         width: 100%;
@@ -551,3 +557,5 @@ body {
         display: none;
     }
 }
+
+/* SE QUE PUEDO MEJORAR EL ESTILO PERO NO ME DIO EL TIEMPO COMO PARA HACER LOS AJUSTES. PERO QUIERO AGRADECER LO BIEN QUE EXPLICASTE LAS CLASES YA QUE SE VE REFLEJADO CON ESTO QUE TODOS APRENDIMOS. */
