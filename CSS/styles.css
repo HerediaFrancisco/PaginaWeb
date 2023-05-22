@@ -150,6 +150,7 @@ body {
     color: #FFFFFF;
     width: 450px;
     height: 88px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
@@ -224,16 +225,16 @@ body {
     font-size: 39px;
     font-weight: 700;
     line-height: 61px;
-
 }
 
 .cnt-cards{
+    height: 237px;
     margin-top: 74px;
     justify-content: center;
 }
 .cards{
     width: 403px;
-    height: 237px;
+    height: 100%;
     align-items: center;
     margin: 0px 10px;
 }
@@ -255,12 +256,11 @@ body {
     margin-top: 21px;
     color: #B9B9C1;
     height: 100px;
+    width: 403px;
     font-weight: 500;
     line-height: 25px;
     text-align: center;
 }
-
-
 
 .btn-main{
     justify-content: center;
@@ -329,7 +329,7 @@ body {
     cursor: pointer;
     width: 20px;
     height: 20px;
-    font-size: 20px;
+/*  font-size: 20px; */
     text-align: center;
 }
 
@@ -358,6 +358,10 @@ body {
     justify-content: space-between;
     width: 105px;
     height: 93px;
+}
+
+.nav1-footer a:hover, .nav2-footer a:hover{
+  text-decoration: underline;
 }
 
 .form-copy{
